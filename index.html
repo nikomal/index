@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <title>主页</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation" id="nav">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">yokiyo</a>
+        </div>
+        <div id="daohang">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a class="dropdown-taggle" data-toggle="dropdown" href="#">searcher</a>
+                    <ul class="dropdown-menu list">
+                        <li><a href="http://www.baidu.com">百度</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.google.com">google</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.sbing.com">bing</a></li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-taggle" data-toggle="dropdown" href="#">study</a>
+                    <ul class="dropdown-menu list">
+                        <li><a href="http://www.w3school.com.cn">w3c</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.codecademy.com">codecademy</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.github.com">github</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="dropdown-taggle" data-toggle="dropdown">video</a>
+                    <ul class="dropdown-menu list">
+                        <li><a href="http://www.bilibili.com">bilibili</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.iqiyi.com">爱奇艺</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.acfun.tv">acfun</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="dropdown-taggle" data-toggle="dropdown">news</a>
+                    <ul class="dropdown-menu list">
+                        <li><a href="http://www.ifeng.com">凤凰</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.163.com">网易</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.sina.com">新浪</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="dropdown-taggle" data-toggle="dropdown">society</a>
+                    <ul class="dropdown-menu list">
+                        <li><a href="http://tieba.baidu.com">贴吧</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.zhihu.com">知乎</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.weibo.com">微博</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="dropdown-taggle" data-toggle="dropdown">shows</a>
+                    <ul class="dropdown-menu list">
+                        <li><a href="http://www.douyu.com">斗鱼</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.panda.com">熊猫</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.huya.com">虎牙</a></li>
+                    </ul>
+                </li>
+                <li id="secret"><a class="dropdown-taggle" data-toggle="dropdown" href="#">secret</a>
+                    <ul class="dropdown-menu list">
+                        <li><a href="http://www.tumblr.com">tumblr</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://ho.haocl.site/index.php">1024</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="danger">key</a></li>
+            </ul>
+            <div class="navbar-right">
+                <form class="navbar-form " role="search" action="http://www.baidu.com/s" method="get">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="word" placeholder="输入你想要的一切">
+                    </div>
+                    <button type="submit" class="btn btn-info">搜索</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="cow">
+        <div class="col-md-8">
+            <div id="myCarousel" class="carousel slide ">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active">
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner ">
+                    <div class="item active">
+                        <a href="http://www.bilibili.com"><img src="image/bilibili.jpg" alt="图片不见了>_<"
+                                                               class="img-r"></a>
+                    </div>
+                    <div class="item">
+                        <a href="http://www.163.com"><img src="image/news.jpg" alt="图片不见了>_<" class="img-r"></a>
+                    </div>
+                    <div class="item">
+                        <a href="http://www.douyu.com"><img src="image/shows.jpg" alt="图片不见了>_<" class="img-r"></a>
+                    </div>
+                </div>
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
+            </div>
+            <div id="say">GO!! FIGHT!! <span>AND</span> ENJOY!!</div>
+        </div>
+        <div class="col-md-4 well">
+            <div class="panel-heading alert-info">SCHOOL</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <span>bootstrap</span>
+                    <a href="http://www.runoob.com/bootstrap/bootstrap-tutorial.html" class="badge">go</a>
+                </li>
+                <li class="list-group-item">
+                    <span>jquery</span>
+                    <a href="http://www.runoob.com/jquery/jquery-tutorial.html" class="badge">go</a>
+                </li>
+                <li class="list-group-item">
+                    <span>php</span>
+                    <a href="http://www.runoob.com/php/php-tutorial.html" class="badge">go</a>
+                </li>
+                <li class="list-group-item">
+                    <span>asp.net</span>
+                    <a href="http://www.runoob.com/aspnet/aspnet-tutorial.html" class="badge">go</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4 well">
+            <div class="panel-heading alert-info">友情链接</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <span>重邮主页</span>
+                    <a href="http://www.cqupt.edu.cn" class="badge">go</a>
+                </li>
+                <li class="list-group-item">
+                    <span>教务在线</span>
+                    <a href="http://jwzx.cqupt.edu.cn/" class="badge">go</a>
+                </li>
+                <li class="list-group-item">
+                    <span>选课地址</span>
+                    <a href="http://xk2.cqupt.edu.cn/" class="badge">go</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#secret").click(function () {
+            alert("好孩子是不能看的！要看去隔壁！");
+        });
+        $("#danger").click(function () {
+            var i = prompt("对暗号！！！");
+            if (i === "天王盖地虎") {
+                alert("好好玩~");
+                $("#danger").unbind();
+                $("#secret ul").css("display", "block")
+            }
+            else alert("你没有权限！！");
+        })
+    })
+</script>
+</html>
